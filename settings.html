@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="settings.css">
+</head>
+<body>
+	<h1>Settings</h1>
+    <div class="buttons">
+	<button id="delete-account-btn">Delete Account</button>
+    <br>
+	<button id="logout-btn">Logout</button>
+    <br>
+     </div>
+	<label for="theme-select">Theme:</label>
+	<select id="theme-select">
+		<option value="light">Light</option>
+		<option value="dark">Dark</option>
+		<option value="colorful">Colorful</option>
+	</select>
+	<h2>Change Password</h2>
+	<form id="change-password-form">
+		<label for="current-password">Current Password:</label>
+		<input type="password" id="current-password" name="current-password" required>
+		<label for="new-password">New Password:</label>
+		<input type="password" id="new-password" name="new-password" required>
+		<label for="confirm-password">Confirm Password:</label>
+		<input type="password" id="confirm-password" name="confirm-password" required>
+		<button type="submit">Change Password</button>
+	</form>
+</body>
+</html>
